@@ -23,7 +23,7 @@ functions:
   hello: aws-python-http-api-project-dev-hello (2.3 kB)
 ```
 
-After deploying the resources, you need to register API gatway endpoint as the line bot webhook url, and configure *Opan AI kay* 、 *line channel secret* and *line channel token* in lambda environemnt.
+After deploying the resources, you need to register API gatway endpoint as the line bot webhook url, and configure *Opan AI kay* 、 *line channel secret* and *line channel token* in the lambda environemnt.
 
 
 ### Bundling dependencies
