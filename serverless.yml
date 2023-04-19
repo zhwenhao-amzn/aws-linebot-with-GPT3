@@ -1,0 +1,18 @@
+service: aws-linebot-with-GPT3
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+
+functions:
+  line_bot:
+    handler: handler.lambda_handler
+    events:
+      - http:
+          path: /webhook
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements

@@ -1,0 +1,5 @@
+boto3
+line-bot-sdk
+openai
+requests
+transformers
