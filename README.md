@@ -2,6 +2,7 @@
 # Linebot with OpenAI GPT3 on AWS
 
 This repository is the result of my collaboration with OpenAI GPT-4 model, and it includes how to deploy resources using Node.js serverless architecture.
+The main purpose of this lambda function is to allow users to chat with the GPT model through the Line Bot, while storing the conversation logs in DynamoDB to ensure continuity of the conversation with the GPT model. 
 
 ## Usage
 
